@@ -10,6 +10,7 @@ device/xiaomi/chime
 kernel/xiaomi/chime
 vendor/xiaomi/chime
 hardware/xiaomi
+hardware/dolby
 )
 
 rm -rf "${mf[@]}"
@@ -19,3 +20,6 @@ git clone https://github.com/Evolution-X-Devices/hardware_dolby.git -b bka-aospa
 
 source build/envsetup.sh
 brunch chime
+
+curl https://raw.githubusercontent.com/Sushrut1101/GoFile-Upload/refs/heads/master/upload.sh
+./upload.sh out/target/product/chime/Derp*chime*.zip
