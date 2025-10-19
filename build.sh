@@ -22,4 +22,5 @@ source build/envsetup.sh
 brunch chime
 
 wget https://raw.githubusercontent.com/Sushrut1101/GoFile-Upload/refs/heads/master/upload.sh
+chmod +x upload.sh
 ./upload.sh out/target/product/chime/Derp*chime*.zip
