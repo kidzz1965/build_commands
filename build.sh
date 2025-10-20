@@ -11,6 +11,8 @@ kernel/xiaomi/chime
 vendor/xiaomi/chime
 hardware/xiaomi
 hardware/dolby
+upload.sh
+upload.sh1
 )
 
 rm -rf "${mf[@]}"
