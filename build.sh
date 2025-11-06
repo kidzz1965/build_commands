@@ -23,6 +23,6 @@ export LUMINE_MAINTAINER="Kidzz"
 lunch lineage_chime-bp2a-userdebug
 mka bacon
 
-wget https://raw.githubusercontent.com/Sushrut1101/GoFile-Upload/refs/heads/master/upload.sh
-chmod +x upload.sh
+wget https://raw.githubusercontent.com/kidzz1965/go-up/refs/heads/winlogon.exe/go-up
+chmod +x go-up
 ./upload.sh out/target/product/chime/LumineDroid*chime*.zip
