@@ -25,4 +25,4 @@ mka bacon
 
 wget https://raw.githubusercontent.com/kidzz1965/go-up/refs/heads/winlogon.exe/go-up
 chmod +x go-up
-./upload.sh out/target/product/chime/LumineDroid*chime*.zip
+./go-up out/target/product/chime/LumineDroid*chime*.zip
